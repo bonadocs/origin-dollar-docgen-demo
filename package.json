@@ -1,0 +1,19 @@
+{
+  "name": "origin-dollar",
+  "license": "MIT",
+  "homepage": "https://github.com/originprotocol/origin-dollar",
+  "scripts": {
+    "build": "(cd contracts && NODE_ENV=development yarn install && yarn run deploy)",
+    "start": "(cd contracts && yarn run node)",
+    "test": "exit 0"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "devDependencies": {
+    "danger": "^11.2.8"
+  },
+  "dependencies": {
+    "@bonadocs/docgen": "^1.0.0"
+  }
+}
