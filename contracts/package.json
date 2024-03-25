@@ -68,7 +68,7 @@
     "solidifier": "^2.2.3",
     "solidity-coverage": "^0.8.2",
     "sync-fetch": "^0.5.2",
-    "web3-utils": "^1.5.2"
+    "web3-utils": "^4.2.1"
   },
   "husky": {
     "hooks": {
